@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, .new-price{
+        font-family: 'Fraunces', serif;
+}
+
+p, h3, .ori-price{
+    color: hsl(228, 12%,48%)
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:48rem;
+    background-color:  hsl(30, 38%, 92%);
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img{
+    width:17%;
+    border-radius: 10px 0 0 10px ;
+    padding:0;
+}
+
+h3{
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: hsl(158,36%,37%);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:hsl(0, 0%, 100%);
+    width:100%;
+    line-height: 2.5;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(44, 90, 73);;
+}
+
+
+.ori-price{
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    position: absolute;
+    margin: 5px 30px;
+
+}
+
+.new-price{
+    color: hsl(158,36%,37%);
+    font-size: 2rem;  
+    display:inline-block;
+    margin-top: 0;
+}
+
+.Gabrielle{
+    background-color: hsl(0, 0%, 100%);
+    width:16.5%;
+    padding: 7px 30px 20px 20px;
+    border-radius:0 10px 10px 0;
+}
+
+@media(min-width:900px) {
+    display:flex;
+    flex-direction: column;
+}
